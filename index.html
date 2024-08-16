@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="nav_content">
+        <div class="container l_r_padding">
+          <div class="navbar d_flex jc_between align_center">
+            <div class="logopart">
+              <figure>
+                <img src="./images/travel.jpg" alt="logo" loading="lazy" />
+              </figure>
+            </div>
+            <div class="nav_items d_flex jc_between" id="nav_links">
+              <ul class="d_flex align_center">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="destination.html">DESTINATION</a></li>
+                <li><a href="packages.html">PACKAGES</a></li>
+                <li><a href="special_offers.html">SPECIAL OFFERS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="subscription.html">SUBSCRIPTION</a></li>
+              </ul>
+              <a class="btn" href="#">BOOK NOW</a>
+            </div>
+            <div class="toggler" id="toggler">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner t_b_padding">
+        <div class="container l_r_padding">
+          <div class="banner_content">
+            <h1>Explore the Beauty of the Beautiful World</h1>
+            <a class="btn" href="#">EXPLORE NOW</a>
+          </div>
+        </div>
+      </section>
+      <!-- booking form -->
+      <section class="tour_search d_flex jc_center align_center">
+        <div class="container">
+          <form action="" class="tour_search_form">
+            <div class="input_wrapper">
+              <label for="destination" class="input_label"
+                >Search Destination</label
+              >
+              <br />
+              <input
+                type="text"
+                name="destination"
+                id="destination"
+                placeholder="Enter Destination"
+                class="input_field"
+              />
+              <p id="destinationError" class="error"></p>
+            </div>
+            <div class="input_wrapper">
+              <label for="people" class="input_label">Number</label>
+              <br />
+              <input
+                type="text"
+                name="people"
+                id="people"
+                placeholder="No of people"
+                class="input_field"
+              />
+              <p id="peopleError" class="error"></p>
+            </div>
+            <div class="input_wrapper">
+              <label for="checkin" class="input_label">Checkin Date</label>
+              <br />
+              <input
+                type="date"
+                name="checkin"
+                id="checkin"
+                class="input_field"
+              />
+              <p id="checkinError" class="error"></p>
+            </div>
+            <div class="input_wrapper">
+              <label for="checkout" class="input_label">Checkout Date</label>
+              <br />
+              <input
+                type="date"
+                name="checkout"
+                id="checkout"
+                class="input_field"
+              />
+              <p id="checkoutError" class="error"></p>
+            </div>
+            <div class="input_wrapper">
+              <label for="phone" class="input_label">Phone No</label>
+              <br />
+              <input
+                type="phone"
+                name="phone_no"
+                id="phone_no"
+                placeholder="Enter Your Phone No"
+                class="input_field"
+              />
+              <p id="phoneError" class="error"></p>
+            </div>
+            <a class="btn" href="">book now</a>
+          </form>
+        </div>
+      </section>
+      <!-- explore -->
+      <section class="explore t_b_padding">
+        <div class="container l_r_padding">
+          <div class="explore_text_part text_center">
+            <h2>EXPLORE</h2>
+            <p>
+              Explore New place, food, culture around the world and many more
+            </p>
+          </div>
+          <div class="explore_cards d_flex jc_between">
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/e1.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Swim & Dine Resort</h4>
+                <p class="rating"><span>4.3</span> 8 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="open">Open Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Featured</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/e2.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Europe Tour</h4>
+                <p class="rating1"><span>5.0</span> 14 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="close">close Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Featured</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/e3.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Thiland Tour</h4>
+                <p class="rating"><span>4.5</span> 12 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="open">Open Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Best Rated</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/e4.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Bunglow with Swiming Pool</h4>
+                <p class="rating1"><span>4.9</span> 16 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="close">close Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Featured</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/e5.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Vintage Car Expo</h4>
+                <p class="rating"><span>4.3</span> 15 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="open">Open Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Featured</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <figure>
+                  <img src="./images/explore1.jpg" alt="explore" />
+                </figure>
+              </div>
+              <div class="card_text">
+                <h4>Tommy Hilfinger Bar</h4>
+                <p class="rating"><span>4.3</span> 8 Ratings</p>
+                <div class="status d_flex jc_between align_center">
+                  <p class="close">close Now</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="hide">
+                <p>Best Rated</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="t_b_padding">
+        <div class="container l_r_padding">
+          <div class="footer_logo">
+            <figure>
+              <img src="./images/travel.jpg" alt="logo" />
+            </figure>
+          </div>
+          <div class="footer_content d_flex jc_between">
+            <div class="card">
+              <p class="heading_text">Department of Tourism</p>
+              <p>
+                New Secretariat Building 1,<br />
+                K. S. Roy Road, 3rd Floor,<br />
+                Kolkata - 700001
+              </p>
+              <p><i class="fa-solid fa-envelope"></i>info@domain.com</p>
+            </div>
+            <div class="card">
+              <p class="heading_text">Booking Office</p>
+              <p>Tourist Office</p>
+              <p>
+                <i class="fa-solid fa-phone-volume"></i>tourism Center: 033-2243
+                6440
+              </p>
+              <p>
+                <i class="fa-solid fa-phone-volume"></i>Toll-free-no:
+                1800-2121-655
+              </p>
+              <p>
+                <i class="fa-solid fa-phone-volume"></i>90733 86803, 90733
+                86804, 90733 27315
+              </p>
+            </div>
+            <div class="card">
+              <p class="heading_text">About</p>
+              <ul>
+                <li>Sidemap</li>
+                <li>Feedback</li>
+              </ul>
+            </div>
+            <div class="card">
+              <p class="heading_text">Popular Destination</p>
+              <ul>
+                <li>Brazil</li>
+                <li>New York</li>
+                <li>Australia</li>
+                <li>India</li>
+                <li>USA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_lower_part text_center">
+        <p>Copyright &copy;2024 All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
